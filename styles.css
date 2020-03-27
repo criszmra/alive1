@@ -1,57 +1,57 @@
 nav{
-  background-color: #7BB2D9;
+  background-color: #94FBAB;
   height: 40px;
   width: 100%;
   text-align: center;
   font-size: 30px;
   font-family: Courier;
   text-decoration: none;
-
-
-
-
 }
 .niños{
-  margin-right: 100px;
+  margin-right: 120px;
+  font-family: Courier;
+
  }
 .adolescentes{
-  margin-right: 50px
+  margin-right: 60px;
+  font-family: Courier;
 }
 .adultos{
-  margin-left: 50px
+  margin-left: 60px;
+  font-family: Courier;
 }
 .adultosmayores {
-  margin-left: 120px
+  margin-left: 120px;
+  font-family: Courier;
 }
 .titulo1{
-  background-color:#FE5D9F; width: 100%; height: 100px;
+  background-color:#66C3FF; width: 100%; height: 100px;
   font-family: Courier;
   font-size: 100px;
   text-align: center
 }
 
 body{
-  background-color:white;
-  margin-left: : 20px
-
-
+  background-color:#FFFD98;
+  margin-left: : 10px
 }
 main{
-  background-color:#FE5D9F; width: 100%; height: 500px; text-align: center;
-
+  background-color:#FFC6D9;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 .img1{
   margin-top: 85px;
   margin-bottom: 30px;
-
 }
-
+}
 article{
-  background-color: #20A4F3; width: 100%;
+  background-color: #20A4F3; width: 40%;
 
 }
 footer{
-  background-color:#FF007F;
+  background-color:#FF99C9;
   width: 100%;
   height:20px;
   margin-top:100px;
