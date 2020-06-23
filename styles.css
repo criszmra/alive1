@@ -1,14 +1,48 @@
 nav{
   background-color: #D8F793;
-  height: 40px;
+  height: 100px;
   width: 100%;
   text-align: center;
   font-size: 30px;
   font-family: Courier;
 
+}
+.niños1{
+  background-color: #FFC6D9;
+  padding: 3px 10px;
+  border: #C0DA74 5px solid;
+  border-radius: 20px;
+
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+
 
 
 }
+.adultos1{
+  background-color: #FFC6D9;
+  padding: 3px 10px;
+  border: #C0DA74 5px solid;
+  border-radius: 20px;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+
+}
+.adultosmayores1{
+  background-color: #FFC6D9;
+  padding: 3px 10px;
+  border: #C0DA74 5px solid;
+  border-radius: 20px;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+
+}
+.adolescentes1{
+  background-color: #FFC6D9;
+  padding: 3px 10px;
+  border: #C0DA74 5px solid;
+  border-radius: 20px;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+
+}
+
 .tituloniños{
   font-family: Courier;
   font-size: 60px;
@@ -29,7 +63,6 @@ nav{
   font-size: 60px;
   background-color: #C0DA74;
 }
-
 
 .niños{
   margin-right: 120px;
@@ -60,14 +93,19 @@ nav{
   width: 250px;
   height: 187.5px;
 }
-.vianney{
-  width: 250px;
-  height:
-}
 
 .adolescentesfotos{
   width: 250px;
   height: 187.5px;
+}
+.caja{
+  height: 70px;
+}
+.like{
+}
+
+.reaccion{
+  height: 20px;
 }
 
 div.polaroid {
@@ -128,3 +166,27 @@ footer{
 
 aside{
   background-color:pink;display:inline-block;text-align:center;width: 100px;height: 400px;float:left
+}
+#cuadrito{
+  width:100px;
+  padding:50px;
+  margin:00px auto;
+  border-radius:10px;
+  font-weight: bold;
+  color: #DAA3A3;
+}
+#contador{
+    font-size: 50px;
+  font-weight: bold;
+  color: #a3bad8;
+}
+.portada{
+  background-color: white;
+  padding:35px 35px 35px 35px;
+  border:1px solid #BFBFBF;
+  box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+  width: 40%;
+}
+.p1{
+  font-family: Courier;
+}

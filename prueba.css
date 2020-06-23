@@ -1,0 +1,34 @@
+#cuadrito{
+  width:100px;
+  padding:50px;
+  margin:00px auto;
+  border-radius:10px;
+  font-weight: bold;
+  color: #DAA3A3;
+}
+#segundos{
+  width:30px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #DAA3A3;
+  border:none;
+}
+#contador{
+    font-size: 50px;
+  font-weight: bold;
+  color: #a3bad8;
+}
+#boton{
+  width:100px;
+  height:40px;
+  border:none;
+  font-weight: bold;
+  color: #DAA3A3;
+}
+#nuevo{
+  width:100px;
+  height:40px;
+  border:none;
+  font-weight: bold;
+  color: #DAA3A3;
+}

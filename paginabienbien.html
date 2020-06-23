@@ -1,33 +1,54 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
   <meta charset= "utf-8">
   <link href= "./styles.css" rel= "stylesheet" type= "text/css">
+  <script src="./pagina.js"></script>
   <title> rulasfilm </title>
   </head>
 
   <body>
     <br>
     <section class="titulo1">rulasfilm</section>
-    <section>
-      <a class= "logo1" title="redes sociales" href="https://www.instagram.com/rulasfilm/"><img src="mmm.png" style= "width: 30px"  /></a>
-    </section>
-
 
     <nav>
-      <a href="#Niños - 1" style= "text-decoration:none";>Niños</a>
-      <a href="#Adolescentes - 1"style="text-decoration:none";>Adolescentes</a>
-      <a href="#Adultos - 1"style="text-decoration:none";>Adultos</a>
-      <a href="#Adultos mayores - 1"style="text-decoration:none";>Adultos mayores</a>
+      <style>
+
+      a:visited {
+        color: black;
+      }
+
+      a:hover {
+        color: hotpink;
+      }
+
+      a:active {
+        color: green;
+      }
+
+
+      </style>
+      <br>
+      <a class="niños1" href="#Niños - 1" style= "text-decoration:none";>Niños</a>
+      &nbsp
+      &nbsp
+      <a class="adolescentes1" href="#Adolescentes - 1"style="text-decoration:none";>Adolescentes</a>
+      &nbsp
+      &nbsp
+      <a class="adultos1" href="#Adultos - 1"style="text-decoration:none";>Adultos</a>
+      &nbsp
+      &nbsp
+      <a class="adultosmayores1" href="#Adultos mayores - 1"style="text-decoration:none";>Adultos mayores</a>
     </nav>
 
     <main>
       <br>
       <article></article>
 
+    
       <div class= "img1">
-
-      <img class="img1.1"src="portada.jpg"></img>
+      <img class="portada"src="cris.png"></img>
+      <h1 class="p1">dani california - red hot chili peppers</h1>
 
         <br>
         <br>
@@ -57,69 +78,188 @@
           padding: 0px 0px;
           font-family: Courier;
           }
+          div.ola{
+            display: inline-block;
+            margin-bottom: 40px;
+
+          }
+          div.caja{
+            background-color: white;
+            border:1px solid #BFBFBF;
+            box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+          }
+
+
           </style>
 
+          <div class="ola">
           <div class="polaroid">
-          <img class = "niñosfoto" href = "https://youtu.be/M-hTsloJ-fc" src="roger.jpg" alt="5 Terre" >
+          <a  href = "https://youtu.be/M-hTsloJ-fc"><img class = "niñosfoto" src="roger.jpg" alt="5 Terre"></a>
           <div class="container">
             <h5>Rogelio Nieto</h5><h6>los niños queremos la paz - 3+2<h6>
           </div>
           </div>
+          <div class="caja">
+          <input id="like" class="like reaccion" onclick="sumarlike();" type="button" value="like">
+          <p id="nlikes">0</p>
+          <input id="dislike" class="dislike reaccion" onclick="sumardislike();" type="button" value="dislike">
+          <p id="ndislikes">0</p>
+          </div>
+          </div>
+
+
+          <div class="ola">
           <div class="polaroid">
-          <img class = "niñosfoto" src="edgardo.jpg" alt="5 Terre" >
+          <a  href="https://youtu.be/Ee_uujKuJMI"><img class = "niñosfoto" src="edgardo.jpg" alt="5 Terre"></a>
           <div class="container">
-            <h5>Edgardo Zamora</h5><h6>hope
-              <br> xxxtentation<h6>
+            <h5>Edgardo Zamora</h5><h6>american idiot - green day<h6>
           </div>
           </div>
+          <div class="caja">
+          <input id="like" class="like reaccion" onclick="sumarlike();" type="button" value="like">
+          <p id="nlikes">0</p>
+          <input id="dislike" class="dislike reaccion" onclick="sumardislike();" type="button" value="dislike">
+          <p id="ndislikes">0</p>
+          </div>
+          </div>
+
+          <div class="ola">
           <div class="polaroid">
-          <img class = "niñosfoto" src="noe.jpg" alt="5 Terre" >
+          <a  href = "https://youtu.be/ULxcmMgsxf4"><img class = "niñosfoto" src="noe.jpg" alt="5 Terre"></a>
           <div class="container">
             <h5>Noe Paredes</h5><h6>la chona - los tucanes de Tijuana<h6>
           </div>
           </div>
+          <div class="caja">
+          <input id="like" class="like reaccion" onclick="sumarlike();" type="button" value="like">
+          <p id="nlikes">0</p>
+          <input id="dislike" class="dislike reaccion" onclick="sumardislike();" type="button" value="dislike">
+          <p id="ndislikes">0</p>
+          </div>
+          </div>
+
+          <div class ="ola">
           <div class="polaroid">
-          <img class = "niñosfoto" src="ninfa.jpg" alt="5 Terre" >
+          <a  href = "https://youtu.be/x-0KoCAV4mc"><img class = "niñosfoto" src="Ninfa.jpg" alt="5 Terre"></a>
           <div class="container">
             <h5>Ninfa Nieto</h5><h6>mi persona favorita - rio roma<h6>
           </div>
           </div>
+          <div class="caja">
+          <input id="like" class="like reaccion" onclick="sumarlike();" type="button" value="like">
+          <p id="nlikes">0</p>
+          <input id="dislike" class="dislike reaccion" onclick="sumardislike();" type="button" value="dislike">
+          <p id="ndislikes">0</p>
+          </div>
+          </div>
+
+          <div class ="ola">
           <div class="polaroid">
-          <img class = "niñosfoto" src="becca.jpg" alt="5 Terre" >
+          <a  href = "https://youtu.be/kJQP7kiw5Fk"><img class = "niñosfoto" src="Becca.jpg" alt="5 Terre"></a>
           <div class="container">
-            <h5>Becca Nieto</h5><h6>despacito<h6>
+            <h5>Becca Nieto</h5><h6>despacito - luis fonsi<h6>
           </div>
           </div>
+          <div class="caja">
+          <input id="like" class="like reaccion" onclick="sumarlike();" type="button" value="like">
+          <p id="nlikes">0</p>
+          <input id="dislike" class="dislike reaccion" onclick="sumardislike();" type="button" value="dislike">
+          <p id="ndislikes">0</p>
+          </div>
+          </div>
+
+          <div class ="ola">
           <div class="polaroid">
-          <img class = "niñosfoto" src="nico.jpg" alt="5 Terre" >
+          <a  href = "https://youtu.be/obUHDyWFMi8"><img class = "niñosfoto" src="Nico.jpg" alt="5 Terre"></a>
           <div class="container">
-            <h5>Nico Villa</h5><h6>ayy macarena - Tyga<h6>
+            <h5>Nico Villa</h5><h6>ayy macarena<br> - Tyga<h6>
           </div>
           </div>
+          <div class="caja">
+          <input id="like" class="like reaccion" onclick="sumarlike();" type="button" value="like">
+          <p id="nlikes">0</p>
+          <input id="dislike" class="dislike reaccion" onclick="sumardislike();" type="button" value="dislike">
+          <p id="ndislikes">0</p>
+          </div>
+          </div>
+
+          <div class ="ola">
           <div class="polaroid">
-          <img class = "niñosfoto" src="rey.jpg" alt="5 Terre">
+          <a  href = "https://youtu.be/1-xGerv5FOk"><img class = "niñosfoto" src="Rey.jpg" alt="5 Terre"></a>
           <div class="container">
-            <h5>Rey Espino</h5><h6>alone - alan walker<h6>
+            <h5>Rey Espino</h5><h6>alone -<br> alan walker<h6>
           </div>
           </div>
+          <div class="caja">
+          <input id="like" class="like reaccion" onclick="sumarlike();" type="button" value="like">
+          <p id="nlikes">0</p>
+          <input id="dislike" class="dislike reaccion" onclick="sumardislike();" type="button" value="dislike">
+          <p id="ndislikes">0</p>
+          </div>
+          </div>
+
+          <div class ="ola">
           <div class="polaroid">
-          <img class = "niñosfoto" src="andrea.jpg" alt="5 Terre" >
+          <a  href = "https://youtu.be/5AkDqm-cEgg"><img class = "niñosfoto" src="Andrea.jpg" alt="5 Terre"></a>
           <div class="container">
-            <h5>Andrea Tonis</h5><h6>tutu - camilo<h6>
+            <h5>Andrea Tonis</h5><h6>tutu - camilo ft. pedro capó<h6>
           </div>
           </div>
+          <div class="caja">
+          <input id="like" class="like reaccion" onclick="sumarlike();" type="button" value="like">
+          <p id="nlikes">0</p>
+          <input id="dislike" class="dislike reaccion" onclick="sumardislike();" type="button" value="dislike">
+          <p id="ndislikes">0</p>
+          </div>
+          </div>
+
+          <div class ="ola">
           <div class="polaroid">
-          <img class = "niñosfoto" src="santi.jpg" alt="5 Terre">
+          <a  href = "https://youtu.be/r7qovpFAGrQ"><img class = "niñosfoto" src="Santi.jpg" alt="5 Terre"></a>
           <div class="container">
             <h5>Santi Tonis</h5><h6>old town road - lil nas x<h6>
           </div>
           </div>
+          <div class="caja">
+          <input id="like" class="like reaccion" onclick="sumarlike();" type="button" value="like">
+          <p id="nlikes">0</p>
+          <input id="dislike" class="dislike reaccion" onclick="sumardislike();" type="button" value="dislike">
+          <p id="ndislikes">0</p>
+          </div>
+          </div>
+
+          <div class ="ola">
           <div class="polaroid">
-          <img class = "niñosfoto" src="usiel.jpg" alt="5 Terre">
+          <a  href = "https://youtu.be/b4MI7ppIoYo"><img class = "niñosfoto" src="usiel.jpg" alt="5 Terre"></a>
           <div class="container">
             <h5>Uziel Espino</h5><h6>solo amigos - adexe y nau<h6>
           </div>
-        </div>
+          </div>
+          <div class="caja">
+          <input id="like" class="like reaccion" onclick="sumarlike();" type="button" value="like">
+          <p id="nlikes">0</p>
+          <input id="dislike" class="dislike reaccion" onclick="sumardislike();" type="button" value="dislike">
+          <p id="ndislikes">0</p>
+          </div>
+          </div>
+
+          <div class ="ola">
+          <div class="polaroid">
+          <a  href = "https://youtu.be/P0fmp6OPjGc"><img class = "niñosfoto" src="luca.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Luca Ordoñez</h5><h6>autogol - poncho de nigris<h6>
+          </div>
+          </div>
+          <div class="caja">
+          <input id="like" class="like reaccion" onclick="sumarlike();" type="button" value="like">
+          <p id="nlikes">0</p>
+          <input id="dislike" class="dislike reaccion" onclick="sumardislike();" type="button" value="dislike">
+          <p id="ndislikes">0</p>
+          </div>
+          </div>
 
     </div>
 
@@ -130,115 +270,146 @@
 
 
 
-
           <div class="polaroid">
-          <img class = "adolescentesfotos" src="vania.jpg" alt="5 Terre" >
+          <a  href ="https://youtu.be/lY1eF-jlGJ4"><img class = "niñosfoto" src="vianney.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Vianney Mtz.</h5><h6>guatauba<br> - plan b<h6>
+          </div>
+          </div>
+          <div class="polaroid">
+          <a  href ="https://youtu.be/VaGRtH7h4oA"><img class = "niñosfoto" src="Vania.jpg" alt="5 Terre"></a>
           <div class="container">
             <h5>Vania Jimenez</h5><h6>terrapin - syd barret<h6>
           </div>
           </div>
           <div class="polaroid">
-          <img class = "adolescentesfotos" src="lia.jpg" alt="5 Terre">
+          <a  href ="https://youtu.be/zQYjC5GSLxo"><img class = "niñosfoto" src="Lia.jpg" alt="5 Terre"></a>
           <div class="container">
-            <h5>Lia Peña</h5><h6>terrapin - syd barret<h6>
+            <h5>Lia Peña</h5><h6>qué nos paso - drims<h6>
           </div>
           </div>
           <div class="polaroid">
-          <img class = "adolescentesfotos" src="libby.jpg" alt="5 Terre">
+          <a  href ="https://youtu.be/36mCEZzzQ3o"><img class = "niñosfoto" src="Libby.jpg" alt="5 Terre"></a>
           <div class="container">
-            <h5>Libby Perez</h5><h6>terrapin - syd barret<h6>
+            <h5>Libby Perez</h5><h6>one way or another - one direction<h6>
           </div>
           </div>
           <div class="polaroid">
-          <img class = "adolescentesfotos" src="alex.jpg" alt="5 Terre">
+          <a  href ="https://youtu.be/mzJj5-lubeM"><img class = "niñosfoto" src="Alex.jpg" alt="5 Terre"></a>
           <div class="container">
-            <h5>Alex Herrera</h5><h6>terrapin - syd barret<h6>
+            <h5>Alex Herrera</h5><h6>scar tissue - red hot chili peppers<h6>
           </div>
           </div>
           <div class="polaroid">
-          <img class = "adolescentesfotos" src="july.jpg" alt="5 Terre">
+          <a  href ="https://youtu.be/oQPwPCHG_i8"><img class = "niñosfoto" src="Zian.jpg" alt="5 Terre"></a>
           <div class="container">
-            <h5>July Gómez</h5><h6>terrapin - syd barret<h6>
-          </div>
-          </div>
-
-          <div class="polaroid">
-          <img class = "adolescentesfotos" src="cons.jpg" alt="5 Terre">
-          <div class="container">
-            <h5>Cons Perez</h5><h6>terrapin - syd barret<h6>
+            <h5>Zian Guiterrez</h5><h6>abbracciami<br> - nek<h6>
           </div>
           </div>
           <div class="polaroid">
-          <img class = "adolescentesfotos" src="raquel.jpg" alt="5 Terre">
+          <a  href ="https://youtu.be/LWpNWWXNy5I"><img class = "niñosfoto" src="July.jpg" alt="5 Terre"></a>
           <div class="container">
-            <h5>Raquel Garcia</h5><h6>terrapin - syd barret<h6>
-          </div>
-          </div>
-          <div class="polaroid">
-          <img class = "adolescentesfotos" src="roberto.jpg" alt="5 Terre">
-          <div class="container">
-            <h5>Roberto Reynoso</h5><h6>terrapin - syd barret<h6>
-          </div>
-          </div>
-          <div class="polaroid">
-          <img class = "adolescentesfotos" src="fatima.jpg" alt="5 Terre">
-          <div class="container">
-            <h5>Fatima Rivera</h5><h6>terrapin - syd barret<h6>
-          </div>
-          </div>
-          <div class="polaroid">
-          <img class = "adolescentesfotos" src="aline.jpg" alt="5 Terre">
-          <div class="container">
-            <h5>Aline Cisneros</h5><h6>terrapin - syd barret<h6>
-          </div>
-          </div>
-          <div class="polaroid">
-          <img class = "adolescentesfotos" src="mary.jpg" alt="5 Terre">
-          <div class="container">
-            <h5>Mary Leytte</h5><h6>terrapin - syd barret<h6>
-          </div>
-          </div>
-          <div class="polaroid">
-          <img class = "adolescentesfotos" src="caro.jpg" alt="5 Terre">
-          <div class="container">
-            <h5>Caro Rios</h5><h6>terrapin - syd barret<h6>
+            <h5>July Gómez</h5><h6>oui mademoiselle - pixpi<h6>
           </div>
           </div>
 
           <div class="polaroid">
-          <img class = "adolescentesfotos" src="eli.jpg" alt="5 Terre">
+          <a  href = "https://youtu.be/Gt-yOFYSxbs"><img class = "niñosfoto" src="dany.jpg" alt="5 Terre"></a>
           <div class="container">
-            <h5>Vania Jimenez</h5><h6>terrapin - syd barret<h6>
+            <h5>Daniela Valerio</h5><h6>hopeworld<br>- j-hope<h6>
+          </div>
+          </div>
+
+          <div class="polaroid">
+          <a  href ="https://youtu.be/5Ss0PmNJsGE"><img class = "niñosfoto" src="Cons.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Cons Perez</h5><h6>pretty girl - clairo<h6>
           </div>
           </div>
           <div class="polaroid">
-          <img class = "adolescentesfotos" src="abraham.jpg" alt="5 Terre">
+          <a  href = "https://youtu.be/3-Z-pzxiUAs"><img class = "niñosfoto" src="jorge.jpg" alt="5 Terre"></a>
           <div class="container">
-            <h5>Vania Jimenez</h5><h6>terrapin - syd barret<h6>
+            <h5>Jorge Chavez</h5><h6>el ansioso - grupo marrano<h6>
           </div>
           </div>
           <div class="polaroid">
-          <img class = "adolescentesfotos" src="luis.jpg" alt="5 Terre">
+          <a  href = "https://youtu.be/b8-tXG8KrWs"><img class = "niñosfoto" src="leonel.jpg" alt="5 Terre"></a>
           <div class="container">
-            <h5>Vania Jimenez</h5><h6>terrapin - syd barret<h6>
+            <h5>Leonel Garcia</h5><h6>reptilia - the strokes<h6>
           </div>
           </div>
           <div class="polaroid">
-          <img class = "adolescentesfotos" src="daves.jpg" alt="5 Terre">
+          <a  href ="https://youtu.be/6fd2kkLmSDQ"><img class = "niñosfoto" src="Raquel.jpg" alt="5 Terre"></a>
           <div class="container">
-            <h5>Vania Jimenez</h5><h6>terrapin - syd barret<h6>
+            <h5>Raquel Garcia</h5><h6>my oh my - camila cabello<h6>
           </div>
           </div>
           <div class="polaroid">
-          <img class = "adolescentesfotos" src="emiliano.jpg" alt="5 Terre">
+          <a  href ="https://youtu.be/6PPK-6FeJ9A"><img class = "niñosfoto" src="Roberto.jpg" alt="5 Terre"></a>
           <div class="container">
-            <h5>Vania Jimenez</h5><h6>terrapin - syd barret<h6>
+            <h5>Roberto Reynoso</h5><h6>dont be so lonely - harry styles<h6>
           </div>
           </div>
           <div class="polaroid">
-          <img class = "adolescentesfotos" src="david.jpg" alt="5 Terre">
+          <a  href ="https://youtu.be/dvgZkm1xWPE"><img class = "niñosfoto" src="Fatima.jpg" alt="5 Terre"></a>
           <div class="container">
-            <h5>Vania Jimenez</h5><h6>terrapin - syd barret<h6>
+            <h5>Fatima Rivera</h5><h6>viva la vida - coldplay<h6>
+          </div>
+          </div>
+          <div class="polaroid">
+          <a  href ="https://youtu.be/L9l8zCOwEII"><img class = "niñosfoto" src="aline.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Aline Cisneros</h5><h6>sofia -<br>clairo<h6>
+          </div>
+          </div>
+          <div class="polaroid">
+          <a  href = "https://youtu.be/M-hTsloJ-fc"><img class = "niñosfoto" src="edith.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Edith Pardave</h5><h6>los niños queremos la paz - 3+2<h6>
+          </div>
+          </div>
+
+          <div class="polaroid">
+        <a  href ="https://youtu.be/47dtFZ8CFo8"><img class = "niñosfoto" src="mary.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Mary Leytte</h5><h6>safe and sound - capital cities<h6>
+          </div>
+          </div>
+          <div class="polaroid">
+          <a  href ="https://youtu.be/KJC4BcH_fzs"><img class = "niñosfoto" src="caro.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Caro Rios</h5><h6>hookah and sheridan´s - tommy boysen<h6>
+          </div>
+          </div>
+
+          <div class="polaroid">
+          <a  href ="https://youtu.be/USDX0X-d588"><img class = "niñosfoto" src="Eli.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Eli de la Mora</h5><h6>no se va<br> - morat<h6>
+          </div>
+          </div>
+          <div class="polaroid">
+          <a  href ="https://youtu.be/o6SprGmHTy4"><img class = "niñosfoto" src="Abraham.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Abraham</h5><h6>muddy waters<br> - lp<h6>
+          </div>
+          </div>
+          <div class="polaroid">
+          <a  href ="https://youtu.be/8Y681STcizI"><img class = "niñosfoto" src="Luis.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Luis Carrillo</h5><h6>noche unica - almanegra<h6>
+          </div>
+          </div>
+          <div class="polaroid">
+          <a  href ="https://youtu.be/CPK_IdHe1Yg"><img class = "niñosfoto" src="Emiliano.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Emiliano Glez.</h5><h6>si veo a tu mamá - bad bunny<h6>
+          </div>
+          </div>
+          <div class="polaroid">
+          <a  href ="https://youtu.be/wfWkmURBNv8"><img class = "niñosfoto" src="David.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>David Haro</h5><h6>el farsante - ozuna y romeo santos<h6>
           </div>
           </div>
 
@@ -247,11 +418,53 @@
     <div>
       <a name="Adultos - 1"/>
         <h1 class="tituloadultos">Adultos<h1>
-
           <div class="polaroid">
-          <img src="manuel.jpg" alt="5 Terre" style="width:250px">
+          <a  href ="https://youtu.be/IlSWxzxl5cg"><img class = "niñosfoto" src="nina.jpg" alt="5 Terre"></a>
           <div class="container">
-            <h5>Manuel Zamora</h5><h6><h6>
+            <h5>Monica Arce</h5><h6>en la ciudad de la furia - soda stereo<h6>
+          </div>
+          </div>
+          <div class="polaroid">
+          <a  href ="https://youtu.be/41mYwjqv714"><img class = "niñosfoto" src="Manuel.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Manuel Zamora</h5><h6>pavido navido - valentin elizalde<h6>
+          </div>
+          </div>
+          <div class="polaroid">
+          <a  href ="https://youtu.be/ULxcmMgsxf4"><img class = "niñosfoto" src="ninfa2.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Ninfa Beattie</h5><h6>la chona - los tucanes de Tijuana<h6>
+          </div>
+          </div>
+          <div class="polaroid">
+          <a  href ="https://youtu.be/lY1eF-jlGJ4"><img class = "niñosfoto" src="Daves.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Daves Orozco</h5><h6>lo olvide - pedro suarez-vertiz<h6>
+          </div>
+          </div>
+          <div class="polaroid">
+          <a  href = "https://youtu.be/StX0bxD4Eqw"><img class = "niñosfoto" src="clara.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Clara</h5><h6>my heart belongs to you - peabo bryson<h6>
+          </div>
+          </div>
+          <div class="polaroid">
+          <a  href ="https://youtu.be/GtSRKwDCaZM"><img class = "niñosfoto" src="Cesar.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Cesar Beattie</h5><h6>yo perreo sola - bad bunny<h6>
+          </div>
+          </div>
+          <div class="polaroid">
+          <a  href ="https://youtu.be/gOMhN-hfMtY"><img class = "niñosfoto" src="Hugo.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Hugo Fernandez</h5><h6>stan - eminem ft. dido<h6>
+          </div>
+          </div>
+          <div class="polaroid">
+          <a  href ="https://youtu.be/tbneQDc2H3I"><img class = "niñosfoto" src="jorge2.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Jorge Guiterrez</h5><h6>tusa - karol g ft. nicki minaj<h6>
+          </div>
           </div>
         <br>
         <br>
@@ -263,7 +476,24 @@
     <div>
       <a name="Adultos mayores - 1"/>
         <h1 class="tituloadultosmayores">Adultos mayores<h1>
-
+          <div class="polaroid">
+          <a  href ="https://youtu.be/lY1eF-jlGJ4"><img class = "niñosfoto" src="sia.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Silvia Margez</h5><h6>lo olvide - pedro suarez-vertiz<h6>
+          </div>
+          </div>
+          <div class="polaroid">
+          <a  href ="https://youtu.be/Wjds0_DCQbA"><img class = "niñosfoto" src="chuy.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Jesus Arce</h5><h6>la gloria eres tu - los panchos<h6>
+          </div>
+          </div>
+          <div class="polaroid">
+          <a  href = "https://youtu.be/Up4WjdabA2c"><img class = "niñosfoto" src="julian.jpg" alt="5 Terre"></a>
+          <div class="container">
+            <h5>Julian</h5><h6>last train to London - elo<h6>
+          </div>
+          </div>
         <br>
         <br>
         <br>
