@@ -189,4 +189,16 @@ aside{
 }
 .p1{
   font-family: Courier;
+  background-color: white;
+  width: 0%;
+
+}
+
+.likebuton{
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+.cero{
+  font-family: Courier;
 }
