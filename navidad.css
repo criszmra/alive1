@@ -1,0 +1,51 @@
+nav{
+    background-color:#068F38;
+    border-radius: 70px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+
+.titulo1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+ 
+}
+
+.titulo2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.pregunta{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+    border-radius: 70px;
+}
+.fotos{
+    width: 70%;
+
+}
+
+.links{
+    text-decoration: none;
+    color: skyblue;
+    font-weight: bold;
+}
+
+.final{
+    background-color: slateblue;
+}
+
+.texto{
+    font-size: 10px;
+}
